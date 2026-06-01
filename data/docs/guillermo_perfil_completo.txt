@@ -1,0 +1,314 @@
+GUILLERMO BENTABOL GARCÍA — PERFIL COMPLETO
+Documento de conocimiento para RAG
+Fecha: junio 2026
+============================================================
+
+
+SECCIÓN 1: PERFIL PERSONAL Y OBJETIVO PROFESIONAL
+============================================================
+
+Guillermo Bentabol García es un ingeniero informático de 24 años residente en Madrid.
+Formación: Grado en Ingeniería Informática (UEMC) + Máster en IA y Big Data (IMF Business School).
+Idiomas: Español nativo, Inglés avanzado (B2-C1 activo en reuniones con clientes internacionales), Portugués intermedio.
+Trabajo actual: Consultor SAP en Deloitte Consulting desde septiembre 2025.
+Objetivo real: Transición a roles de ML Engineer, Data Scientist o AI Engineer. SAP es una etapa, no el destino.
+
+
+SECCIÓN 2: EXPERIENCIA LABORAL
+============================================================
+
+--- Deloitte Consulting (sep 2025 – presente) | Consultor SAP ---
+- Proyecto SEPE (Servicio Público de Empleo Estatal): transformación digital para 200.000+ usuarios.
+  Resolución de incidencias críticas y correctivos mediante ServiceNow. Módulos FI, CO, PA.
+- Proyecto Alemania (100% remoto, inglés): SOA, Business Partners, Fiori, documentación técnica en inglés.
+  Desarrollo de mejoras ABAP, coordinación con stakeholders funcionales y técnicos.
+- Trabajo con entornos seguros SSL y sistemas críticos bajo SLAs estrictos.
+- Herramientas: SAP S/4HANA, ABAP, Fiori, BRF+, ServiceNow, Jira.
+
+--- Cámara Contratistas CyL (2023–2024) | Ingeniero Informático en Prácticas ---
+- Desarrollo y mantenimiento de software de negocio propietario.
+- Aplicación de IA para extracción automatizada de datos de licitación pública.
+- Testing de software, redacción de informes técnicos para toma de decisiones estratégicas.
+
+
+SECCIÓN 3: STACK TECNOLÓGICO COMPLETO
+============================================================
+
+BIG DATA Y ARQUITECTURAS:
+- Hadoop (HDFS, MapReduce, YARN): procesamiento distribuido a escala.
+- Apache Spark / PySpark: transformaciones sobre RDDs y DataFrames con evaluación lazy.
+- Arquitecturas Lambda y Kappa para procesamiento batch + streaming.
+- DataBricks: plataforma cloud para Spark, notebooks colaborativos.
+- HDFS: almacenamiento distribuido con replicación, comandos dfs completos.
+
+MACHINE LEARNING:
+- Scikit-learn: algoritmos supervisados y no supervisados, pipelines de ML.
+- Regresión, clasificación, clustering, reducción dimensional.
+- Feature engineering, validación cruzada, métricas de evaluación.
+- Arquitecturas Lambda/Kappa para ML en producción.
+
+DEEP LEARNING:
+- TensorFlow / Keras: construcción de redes neuronales, entrenamiento, callbacks.
+- PyTorch: redes neuronales con autograd, entrenamiento custom loops.
+- Hugging Face Transformers: BERT, GPT, modelos preentrenados, fine-tuning.
+- Redes recurrentes: RNN, LSTM, GRU para series temporales.
+
+COMPUTER VISION:
+- CNN (Convolutional Neural Networks): capas Conv2D, pooling, flatten, dense.
+- Transfer Learning: MobileNetV2, ResNet50, VGG16, EfficientNet preentrenados en ImageNet.
+- Fine-tuning: descongelar capas superiores y reentrenar con learning rate bajo.
+- YOLO: detección de objetos en tiempo real.
+- Grad-CAM: visualización de mapas de activación para interpretabilidad del modelo.
+- Keras Tuner: optimización automática de hiperparámetros.
+
+NLP (PROCESAMIENTO DEL LENGUAJE NATURAL):
+- Pipeline NLP completo: tokenización → normalización → stopwords → lematización → vectorización.
+- TF-IDF: Term Frequency - Inverse Document Frequency para representación de texto.
+- Embeddings: representaciones vectoriales densas de palabras y frases.
+- Análisis de sentimientos, clasificación de texto, Named Entity Recognition (NER).
+- Transformers: arquitectura de atención, BERT para comprensión, GPT para generación.
+- Sentence Transformers: embeddings semánticos de alta calidad para similitud de textos.
+
+BASES DE DATOS:
+- SQL: consultas complejas, joins, agregaciones.
+- MongoDB: base de datos documental NoSQL, colecciones y documentos JSON/BSON.
+- Neo4j: base de datos de grafos, lenguaje Cypher, nodos y relaciones.
+- ChromaDB: base de datos vectorial para RAG y búsqueda semántica.
+- SQLite: base de datos ligera para proyectos personales.
+
+CLOUD Y DEVOPS:
+- Azure ML: entrenamiento de modelos en la nube, Azure Machine Learning Studio.
+- AWS: conceptos básicos, EC2, S3.
+- Docker: containerización de aplicaciones, Dockerfile, docker-compose.
+- Kubernetes: conceptos de orquestación de contenedores.
+- Render: despliegue de aplicaciones web y bots.
+
+AUTOMATIZACIÓN Y AGENTES IA:
+- N8N: plataforma de automatización de workflows, auto-hospedado en Render vía Docker.
+  Integración con APIs, webhooks, procesamiento de datos automatizado.
+- LangChain: framework para aplicaciones LLM, chains, agentes, herramientas.
+- LangGraph: grafos de agentes para flujos complejos de IA.
+- RAG (Retrieval-Augmented Generation): pipeline completo de indexación y recuperación.
+- Prompt Engineering: diseño de prompts, system prompts, few-shot learning.
+
+ENTERPRISE SAP:
+- SAP S/4HANA: sistema ERP de última generación.
+- ABAP: lenguaje de programación SAP, mejoras y correctivos.
+- SAP Fiori: interfaz de usuario SAP moderna basada en web.
+- BRF+ (Business Rules Framework): motor de reglas de negocio SAP.
+- SAP CRM, MM (Materials Management): módulos de gestión.
+- ServiceNow: gestión de incidencias y tickets ITSM.
+
+LENGUAJES DE PROGRAMACIÓN:
+- Python: lenguaje principal para Data Science, ML, automatización. Nivel alto.
+- R: estadística y visualización de datos.
+- Java, C, C++: lenguajes de la carrera universitaria.
+- SQL: consultas y gestión de bases de datos relacionales.
+- ABAP: lenguaje propietario SAP.
+
+
+SECCIÓN 4: PROYECTOS DESTACADOS
+============================================================
+
+--- PROYECTO 1: TFM — Clasificación de Imágenes con CNNs (2025) ---
+Título completo: "Mejoras en la Clasificación de Imágenes mediante Transfer Learning y Fine-Tuning"
+GitHub: github.com/bentabol/Master
+
+Problema: La clasificación de imágenes con modelos desde cero requiere grandes volúmenes de datos y alta potencia computacional.
+
+Solución implementada:
+- Comparación de arquitecturas preentrenadas: VGG16, ResNet50, MobileNetV2, EfficientNet.
+- Transfer Learning: cargar modelo preentrenado en ImageNet, congelar capas base, añadir capas de clasificación custom.
+- Fine-Tuning: descongelar capas superiores y reentrenar con learning rate muy bajo (1e-5).
+- Optimización de hiperparámetros con Keras Tuner (learning rate, capas Dense, dropout).
+- Interpretabilidad con Grad-CAM: visualizar qué regiones activan la predicción.
+- Pipeline completo: recolección de datos → preprocesamiento → entrenamiento → evaluación → despliegue en Azure con Docker.
+
+Resultados: MobileNetV2 con fine-tuning superó al modelo custom, validando la hipótesis del Transfer Learning.
+
+--- PROYECTO 2: Agente de Trading BTC Autónomo ---
+Agente que monitoriza el precio BTC/USDT a intervalos de 5 minutos.
+Aplica lógica configurable basada en reglas para detectar condiciones de mercado.
+Genera señales de trading automatizadas.
+Stack: Python, Binance API, N8N, integración LLM.
+
+--- PROYECTO 3: Segundo Cerebro (Claude Code + Obsidian) ---
+Sistema de gestión del conocimiento personal que integra Claude Code CLI con un vault de Obsidian.
+Agentes personalizados y scripts de skills para logging automatizado, consultas inteligentes y gestión estructurada de información.
+Stack: Claude API (Anthropic), N8N, Obsidian, Python, Markdown.
+Funcionalidades: registro diario, tracking de inversiones, búsqueda de empleo automatizada, generación de contenido LinkedIn.
+
+--- PROYECTO 4: RAG Assistant (junio 2026) ---
+Sistema de Retrieval-Augmented Generation de producción.
+
+¿Qué es RAG? Es una técnica que combina búsqueda semántica con generación de texto por LLMs.
+En lugar de pedirle al modelo que recuerde información (y que se la invente), el sistema primero busca
+los fragmentos relevantes en una base de documentos real, y luego le pide al modelo que responda
+SOLO basándose en esos fragmentos, citando la fuente.
+
+Problema que resuelve: Los LLMs tienen conocimiento congelado hasta su fecha de entrenamiento
+y no conocen documentos privados. Si le preguntas a ChatGPT sobre un contrato tuyo, se lo inventa.
+RAG resuelve esto de forma eficiente y verificable.
+
+Pipeline técnico completo:
+1. INGESTA: El documento (PDF, texto, URL web) se carga y trocea en fragmentos de ~800 caracteres
+   con solapamiento de 120 caracteres para preservar contexto entre fragmentos.
+2. EMBEDDINGS: Cada fragmento se convierte en un vector numérico de 384 dimensiones usando
+   el modelo sentence-transformers/all-MiniLM-L6-v2 (local, gratuito, rápido).
+   Un embedding captura el significado semántico: frases con significado similar tienen vectores similares.
+3. VECTOR STORE: Los vectores se almacenan en ChromaDB (base de datos vectorial persistente en disco)
+   con métrica de similitud coseno (cosine similarity).
+4. RETRIEVAL: Cuando el usuario hace una pregunta, se convierte también en un vector y se buscan
+   los K fragmentos más similares en ChromaDB (top-K retrieval).
+5. GENERACIÓN: Solo esos K fragmentos relevantes se envían al LLM (Llama 3.3 70B via Groq API, gratis)
+   con un prompt que le obliga a citar fuentes y admitir incertidumbre si no tiene información suficiente.
+
+Stack técnico:
+- LangChain: orquestación del pipeline.
+- sentence-transformers (all-MiniLM-L6-v2): embeddings locales y gratuitos.
+- ChromaDB: base de datos vectorial persistente.
+- Groq API (Llama 3.3 70B): LLM gratuito, 6000 peticiones/día.
+- Gradio: interfaz web interactiva con tres pestañas (Ingest, Ask, Stats).
+- PyPDF: extracción de texto de PDFs.
+- BeautifulSoup4: extracción de texto de páginas web.
+
+Características destacadas:
+- Soporte multi-formato: PDF, TXT, Markdown, URLs web.
+- Chunking inteligente con RecursiveTextSplitter.
+- Embeddings locales: sin coste de API para la indexación.
+- ChromaDB persistente: los documentos sobreviven reinicios del servidor.
+- LLM constrained: Claude o Llama forzado a citar fuentes, no puede alucinar.
+- Interfaz Gradio limpia con chat, upload y estadísticas del índice.
+- CLI scriptable para automatización.
+
+Por qué es valioso para FAANG/empresas grandes:
+- RAG es el patrón más usado en IA empresarial en 2026 (AWS Bedrock, Azure AI Search, Google Vertex AI lo usan por debajo).
+- Permite a empresas hacer preguntas sobre su documentación interna, contratos, bases de conocimiento.
+- Escala a millones de documentos sin aumentar el coste del LLM.
+- Elimina alucinaciones al forzar respuestas basadas en evidencia.
+
+--- PROYECTO 5: Weather Bot (en desarrollo) ---
+Bot de paper trading para mercados meteorológicos en Polymarket.
+Usa el modelo meteorológico ECMWF (51 miembros ensemble) para encontrar ineficiencias de precio.
+Ciudades: Hong Kong, Buenos Aires, Shanghai (fases secuenciales).
+Stack: Python, SQLite, análisis estadístico, APIs de predicción meteorológica.
+
+
+SECCIÓN 5: FORMACIÓN TÉCNICA DETALLADA
+============================================================
+
+--- Máster en IA y Big Data — IMF Business School (2024-2025) ---
+
+M1 — Herramientas y fundamentos: Python, R, Jupyter, entorno de trabajo de Data Science.
+M2 — Big Data: Las 3V (Volumen, Velocidad, Variedad), Hadoop, HDFS, MapReduce, ecosistema.
+M3 — IA en la Empresa: algoritmos ML clásicos, aplicaciones empresariales, análisis de sentimientos en Twitter.
+M4 — Tecnología Big Data: PySpark avanzado, Neo4j (Cypher), MongoDB, DataBricks, YARN.
+M5 — Big Data en la Empresa: arquitecturas Lambda y Kappa, casos de uso empresariales.
+M6 — Aplicaciones IA: proyectos aplicados a dominio específico.
+M7 — Cloud y MLOps: Azure ML, DataBricks cloud, despliegue de modelos.
+M8 — Series Temporales: RNN, LSTM, GRU para predicción temporal.
+M9 — Deep Learning NLP y Visión: CNN, Transfer Learning, NLP completo, Transformers, BERT.
+TFM — Transfer Learning y Fine-Tuning para clasificación de imágenes (nota sobresaliente).
+
+--- Grado en Ingeniería Informática — UEMC (2019-2024) ---
+Especialización en sistemas inteligentes y desarrollo de software.
+Lenguajes: Java, C, C++, Python, SQL.
+Prácticas en empresa: Cámara Contratistas CyL (2023-2024).
+
+
+SECCIÓN 6: ANÁLISIS DEL MERCADO LABORAL
+============================================================
+
+Guillermo tiene compatibilidad alta con estos roles (valorados en Madrid 2026):
+
+- Machine Learning Engineer: ⭐⭐⭐⭐⭐ (42.000–65.000€/año)
+  Fortalezas: pipeline completo, TFM CNN, PySpark, TensorFlow/PyTorch.
+  Gap: más proyectos en producción.
+
+- Data Scientist: ⭐⭐⭐⭐⭐ (42.000–65.000€/año)
+  Fortalezas: estadística, ML clásico y deep learning, Python, visualización.
+  Gap: portfolio de proyectos visibles en GitHub.
+
+- AI Engineer: ⭐⭐⭐⭐☆ (45.000–70.000€/año)
+  Fortalezas: LLMs, RAG (proyecto propio), Agentes, LangChain.
+  Gap: experiencia en modelos en producción a escala.
+
+- Computer Vision Engineer: ⭐⭐⭐⭐☆
+  Fortalezas: CNN, YOLO, ResNet, Transfer Learning, Grad-CAM — todo demostrado en TFM.
+
+- NLP Engineer: ⭐⭐⭐⭐☆
+  Fortalezas: pipeline NLP completo, BERT, embeddings, sentiment analysis.
+
+- AI Consultant: ⭐⭐⭐⭐☆
+  Fortalezas: Deloitte background (enterprise) + IA técnica = combinación rara y valiosa.
+
+Ventajas diferenciales del perfil:
+1. Raro en junior: pipeline ML end-to-end desde datos hasta despliegue.
+2. Dual background: técnico IA + consulting enterprise (Deloitte).
+3. SAP + IA = nicho de alto valor para transformaciones digitales en grandes empresas.
+4. Trilingüe: español, inglés activo en proyectos internacionales, portugués.
+5. Portfolio real: proyectos propios funcionando (RAG, Trading Bot, Segundo Cerebro).
+
+
+SECCIÓN 7: EXPLICACIÓN NO TÉCNICA DE LOS PROYECTOS
+============================================================
+
+--- RAG Assistant (para explicar a no técnicos) ---
+
+Imagina que tienes 1000 documentos PDF de tu empresa y quieres hacerle preguntas a un asistente de IA sobre ellos.
+El problema es que la IA (como ChatGPT) no sabe nada de tus documentos — solo sabe lo que aprendió antes de su entrenamiento.
+Si le preguntas, se inventa las respuestas.
+
+El RAG Assistant resuelve esto así:
+1. Primero "lee" todos tus documentos y los organiza de forma inteligente en una base de datos.
+2. Cuando haces una pregunta, busca en esa base de datos los fragmentos más relevantes.
+3. Le pasa esos fragmentos al asistente de IA y le dice: "responde SOLO con esto, y cita de dónde sacas cada dato".
+4. El asistente responde con información real, diciendo de qué documento y página viene cada afirmación.
+
+Resultado: un asistente que puede responder preguntas sobre tus propios documentos, sin inventarse nada.
+Caso de uso empresa: "¿Qué dice nuestro contrato con el proveedor X sobre penalizaciones?" → respuesta exacta con cita de página.
+
+--- TFM — Clasificación de imágenes (para explicar a no técnicos) ---
+
+Desarrollé un sistema que aprende a reconocer qué hay en una foto.
+En lugar de construir el sistema desde cero (que requeriría millones de fotos), usé modelos que ya habían aprendido
+a reconocer miles de objetos (entrenados en ImageNet con 14 millones de imágenes).
+Le "enseñé" a estos modelos a distinguir las categorías específicas que me interesaban, con muchas menos fotos.
+Es como contratar a un experto en reconocer imágenes y decirle "ahora especialízate en este tipo concreto".
+
+--- Segundo Cerebro (para explicar a no técnicos) ---
+
+Es un sistema personal de gestión del conocimiento potenciado con IA.
+Tengo miles de notas en Obsidian (como un diario inteligente), y he creado agentes de IA que:
+- Registran automáticamente mis actividades del día.
+- Buscan información en mis notas cuando lo necesito.
+- Gestionan mis inversiones y me muestran el estado.
+- Buscan ofertas de trabajo y adaptan mi CV a cada posición.
+- Generan contenido para LinkedIn basado en mi actividad.
+Es básicamente un asistente personal que vive en mi ordenador y conoce todo mi contexto.
+
+
+SECCIÓN 8: SOFT SKILLS Y PERFIL HUMANO
+============================================================
+
+- Problem solving: capacidad de descomponer problemas complejos y buscar soluciones sistemáticas.
+- Pensamiento analítico: orientado a datos y evidencias antes de tomar decisiones.
+- Gestión de stakeholders: experiencia en Deloitte coordinando con equipos funcionales y técnicos.
+- Gestión del tiempo: compaginando proyectos activos en Deloitte (SEPE + Alemania) con proyectos personales.
+- Liderazgo: iniciativa propia en proyectos de IA y automatización sin supervisión directa.
+- Pensamiento crítico: análisis de ofertas laborales, valoración de mercado, decisiones estratégicas de carrera.
+- Adaptabilidad: transición de estudiante a consultor enterprise en entorno de alta exigencia.
+- Inglés técnico activo: reuniones semanales con cliente alemán en inglés, documentación técnica en inglés.
+
+
+SECCIÓN 9: CONTACTO Y PORTFOLIO
+============================================================
+
+Portfolio web: https://portfolio-next-three-sepia.vercel.app
+CV descargable: https://portfolio-next-three-sepia.vercel.app/cv.pdf
+GitHub: https://github.com/bentabol
+LinkedIn: https://www.linkedin.com/in/guillermo-bentabol-garcia-380ab623a/
+Email: guillermobentabolgarcia@gmail.com
+Teléfono: +34 620 136 436
+Ubicación: Madrid, España
+Disponible para proyectos freelance y búsqueda activa de rol AI/ML.
